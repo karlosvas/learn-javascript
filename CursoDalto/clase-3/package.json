@@ -1,0 +1,19 @@
+{
+  "name": "clase-3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "1": "nodemon prototipos.js",
+    "2": "nodemon strict-mode.js",
+    "3": "nodemon arrow-function.js",
+    "4": "Este archivo deve ser ejecutado desde el navegador puesto que no existe wiondow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
+  }
+}

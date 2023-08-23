@@ -1,0 +1,27 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "1": "node JSI.js",
+    "2": "node JSII.js",
+    "3": "node JSIII.js",
+    "4": "node JSIV.js",
+    "5": "node JSV.js",
+    "6": "node JSVI.js",
+    "7": "node JSVII.js",
+    "8": "node JSVIII.js",
+    "9": "node JSIX.js",
+    "10": "node JSX.js",
+    "11": "node JSXI.js",
+    "12": "node JSXII.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
+  }
+}

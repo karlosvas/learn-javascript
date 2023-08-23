@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="this-contextual.js"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(39, 219, 114);
+            background-color: rgb(35, 32, 37);
+        }
+        ::selection{
+            color: rgb(35, 32, 37);
+            background-color: rgb(39, 219, 114);;
+        }
+    </style>
+</head>
+<body>
+    <!-- Estoy utilizando la extension Live Server para poder ejecutar el servidor-->
+    <div class="main">
+        <div id="console-output"></div>
+    </div>
+</body>
+</html>
