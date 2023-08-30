@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexedDB</title>
+    <script defer src="../indexedDB.js"></script>
+    <style>
+        body{
+            color: #222;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .div-contain{
+            background: #f2f3fa;
+        }
+        .div-names{
+            margin: 40px 200px;
+        }
+        .div-name{
+            display: grid;
+            grid-template-columns: minmax(100px,300px) 1fr;
+            border-top:1px solid #48e ;
+        }
+        .div-options{
+            display: flex;
+            justify-self: end;
+        }
+        #input-add{
+            margin-top: 40px;
+        }
+        .button-add{
+            padding: 4px 8px;
+        }
+        .div-options button{
+            background: transparent;
+            border: none;
+            margin: 4px 10px;
+        }
+
+        .button-save{
+            color: rgb(0, 132, 255)
+        }
+        .div-options button:hover{
+           color: #999;
+        }
+        div > h2{
+            padding: 6px;
+            color: #48e;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-main">
+        <div class="div-names-add">
+            <input type="text" id="input-add" placeholder="Introduce un nombre">
+            <button id="button-add">Añadir</button>
+        </div>
+        <div class="div-names"></div>
+    </div>
+</body>
+</html>
