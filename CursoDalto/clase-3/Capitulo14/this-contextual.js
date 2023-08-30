@@ -7,6 +7,7 @@ console.log = function (message) {
   consoleOutput.innerHTML += `<p>${message}</p>`;
 };
 //////////////////////////////////////////////////////////////////////
+
 const Objeto = {
   nombre: "Carlos",
   saludar: function () {
