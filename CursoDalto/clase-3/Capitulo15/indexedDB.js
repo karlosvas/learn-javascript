@@ -111,8 +111,14 @@ const btnAdd = document.getElementById("button-add");
 btnAdd.addEventListener("click", () => {
   let nombre = document.getElementById("input-add").value;
   if (nombre.length > 0) {
+    if (document.querySelector(".button-save") !== null) {
+      if (confirm("Hay elementos sin guardar: ¿Quieres continuar?")) {
+        addObject({ nombre });
+        // Si la variable es igual al valor no hace falta que lo utilizemos dos veces nombre: nombre es igual a nombre
+        readObject();
+      }
+    }
     addObject({ nombre });
-    // Si la variable es igual al valor no hace falta que lo utilizemos dos veces nombre: nombre es igual a nombre
     readObject();
   }
 });
