@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <script defer src="../lazy-load.js"></script>
+    <style>
+        body{
+            background: rgb(23, 22, 36);
+            color: rgb(76, 228, 169);
+            font-family: monospace;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .cargado{
+            padding: 20px;
+        }
+        .publicaciones{
+            margin: 50px 20px;
+            display: flex;
+            flex-direction: column; /* Coloca los elementos en una columna */
+            justify-content: center; /* Centra los elementos horizontalmente */
+            align-items: center; /* Centra los elementos verticalmente */
+        }
+        .publicacion{
+            max-width: 700px;
+            text-align: left;
+            margin: 20px;
+            opacity: 0;
+            animation: aparecer 1s forwards 0.5s;
+        }
+        .publicacion p{
+            margin-top: -25px;
+            padding: 20px;
+            padding-top: 13px;
+            border-left:2px solid #48e ;
+        }
+        .publicacion h3{
+            color: #48e;
+            border-bottom:2px solid #48e ;
+            display: inline-block;
+        }
+        .comentarios{
+            margin-top: -20px;
+            display: flex;
+        }
+
+        .comentarios .comentario{
+            flex-grow: 1;
+        }
+
+        .comentarios .enviar {
+            min-width: 60px;
+            padding: 6px 10px;
+            font-weight: 700;
+        }
+        .comentarios input{
+            padding: 8px 12px;
+            border: none;
+            background: #48e;
+            color: aliceblue;
+        }
+        .comentario::placeholder{
+            color: aliceblue;
+            text-shadow: none;
+        }
+        @keyframes aparecer{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="publicaciones">
+        <div class="publicacion">
+            <h3>Karlos</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quae eligendi ut ipsum id perspiciatis unde quas culpa, illo laboriosam deleniti fugit maiores beatae incidunt quibusdam harum! Autem, reprehenderit libero.</p>
+            <div class="comentarios">
+                <input type="text" class="comentario" placeholder="Introduce un comentario">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

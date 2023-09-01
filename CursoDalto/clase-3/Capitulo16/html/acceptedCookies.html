@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <script src="../acceptedCookies.js"></script>
+    <style>
+        body {
+            background: rgb(23, 22, 36);
+            color: rgb(76, 228, 169);
+            font-family: monospace;
+        }
+        .bg-modal{
+            background: rgb(0,0,0,0.7);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s;
+            z-index: -1;
+        }
+        .modal{
+            background: #fff;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            box-shadow: 0 0 9px 0 #111;
+            margin-top: 15%;
+            text-align: center;
+        }
+        .button{
+            padding: 5px 30px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-modal">
+        <div class="modal">
+            <h2>¿Acceptas usar cookies?</h2>
+            <button id="accept">Si</button>
+            <button id="deny">No</button>
+        </div>
+    </div>
+    <h2>Página Web</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit accusantium quo, ex assumenda sapiente sed perspiciatis possimus veniam natus saepe neque. Sunt vero, excepturi dolores itaque ad quos minima similique</p>
+</body>
+</html>
