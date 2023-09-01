@@ -3,19 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "3-1": "nodemon ./Capitulo14/prototipos.js",
-    "3-2": "nodemon ./Capitulo14/strict-mode.js",
-    "3-3": "nodemon ./Capitulo14/arrow-function.js",
-    "3-4": "nodemon ./Capitulo14/destructuring-param-rest.js",
-    "3-5": "nodemon ./Capitulo14/ternary-operators-rest.js",
-    "3-6": "nodemon ./Capitulo15/date.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1",
     "prettier": "^3.0.2"
   }
 }
